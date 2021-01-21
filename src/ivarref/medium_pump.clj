@@ -1,5 +1,5 @@
 (ns ivarref.medium-pump)
 
 (defn start-pump
-  []
-  (println "wooho!"))
+  [arg]
+  (println "wooho!" arg))
