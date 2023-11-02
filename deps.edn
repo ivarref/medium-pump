@@ -1,5 +1,5 @@
 {:deps  {org.clojure/clojure    {:mvn/version "1.10.1"}
-         aleph/aleph            {:mvn/version "0.4.6"}
-         org.slf4j/slf4j-simple {:mvn/version "1.7.30"}}
+         aleph/aleph            {:mvn/version "0.4.6"}}
+ :paths ["src"]
 
- :paths ["src" "resources"]}
+ :aliases {:pump {:exec-fn pump/start-pump}}}

@@ -1,4 +1,4 @@
-(ns ivarref.medium-pump
+(ns pump
   (:require [aleph.http :as http]
             [aleph.tcp :as tcp]
             [clojure.edn :as edn]
